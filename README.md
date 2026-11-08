@@ -4,18 +4,16 @@ Repositório **público de distribuição**, separado do código-fonte privado [
 
 Este repositório contém **apenas ficheiros compilados**, e não deve conter fontes originais, tokens, chaves de assinatura, dados pessoais ou ficheiros de trabalho.
 
-## Ativar o GitHub Pages
+## Distribuição direta sem GitHub Pages
 
-Abre [Settings → Pages](https://github.com/ruijpedro/RJP-Hidraulica-OTA/settings/pages):
+A APK obtém o manifesto e os pacotes por HTTPS, diretamente do GitHub Raw:
 
-- **Source:** Deploy from a branch
-- **Branch:** main
-- **Folder:** /(root)
-- **Save**
+- Manifesto: https://raw.githubusercontent.com/ruijpedro/RJP-Hidraulica-OTA/main/ota/latest.json
+- Pacote: `https://raw.githubusercontent.com/ruijpedro/RJP-Hidraulica-OTA/main/ota/ota-vX.Y.Z/dist.zip`
 
-O URL esperado do site é https://ruijpedro.github.io/RJP-Hidraulica-OTA/ .
+**Não é obrigatório ativar GitHub Pages.** O URL `latest.json` dará 404 enquanto nenhuma versão tiver sido publicada; isso é normal. Os ficheiros são publicados a partir do repositório privado através de um workflow manual, com token restrito a este destino público. A CDN do GitHub pode introduzir algum atraso entre o commit e a disponibilidade da versão.
 
-O cliente OTA consulta `ota/latest.json` e descarrega `ota/ota-vX.Y.Z/dist.zip`. Estes ficheiros só devem ser publicados depois de testes e de verificação da compatibilidade nativa.
+O GitHub Pages pode ser ativado futuramente se quisermos também uma página de apresentação pública, mas não é necessário para o OTA.
 
 ## Segurança
 
