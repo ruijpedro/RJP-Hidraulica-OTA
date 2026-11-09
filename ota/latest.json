@@ -2,8 +2,8 @@
   "schema": 1,
   "appId": "pt.rjp.hidraulicabacias",
   "channel": "stable",
-  "version": "6.7.1",
+  "version": "6.7.2",
   "minNativeVersion": "6.7.0",
-  "sha256": "470e02b55f43739d51c2a03742ee8a54454a8dc0f2745b3d4972d625ee29f911",
-  "bundleUrl": "https://raw.githubusercontent.com/ruijpedro/RJP-Hidraulica-OTA/main/ota/ota-v6.7.1/dist.zip"
+  "sha256": "c6b6ac4934443d413e0cad8fed0c0424e7767e6ff1dac654dd6616bcd23ec678",
+  "bundleUrl": "https://raw.githubusercontent.com/ruijpedro/RJP-Hidraulica-OTA/main/ota/ota-v6.7.2/dist.zip"
 }
