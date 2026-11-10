@@ -13,7 +13,11 @@ A APK obtém o manifesto e os pacotes por HTTPS, diretamente do GitHub Raw:
 
 **Não é obrigatório ativar GitHub Pages.** O URL `latest.json` dará 404 enquanto nenhuma versão tiver sido publicada; isso é normal. Os ficheiros são publicados a partir do repositório privado através de um workflow manual, com token restrito a este destino público. A CDN do GitHub pode introduzir algum atraso entre o commit e a disponibilidade da versão.
 
-O GitHub Pages pode ser ativado futuramente se quisermos também uma página de apresentação pública, mas não é necessário para o OTA.
+## WebApp
+
+**Versão 6.7.3 — Dimensionamento assistido:** https://ruijpedro.github.io/RJP-Hidraulica-OTA/webapp/
+
+A WebApp é servida pelo GitHub Pages a partir de `main / (root)`. Os ficheiros compilados estão em `webapp/`; a página inicial encaminha para a aplicação. O Pages é independente do OTA Android.
 
 ## Segurança
 
