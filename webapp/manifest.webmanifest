@@ -1,0 +1,21 @@
+{
+  "name": "RJP Hidráulica Engenharia",
+  "short_name": "RJP Hidráulica",
+  "description": "Plataforma de hidrologia, hidráulica e drenagem para projeto",
+  "lang": "pt-PT",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#123149",
+  "icons": [
+    {
+      "src": "./icon.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}
